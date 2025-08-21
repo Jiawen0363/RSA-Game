@@ -1,0 +1,28 @@
+You are an expert at refining dialog with a rich vocabulary. Please polish the following machine-generated dialog to make it sound more natural and realistic.
+
+Background information:
+- This is a referential game: the Speaker describes an object, and the Listener tries to guess what it is.
+- The Speaker is trying to refer to the target object: {target_referent}.
+- The Listener needs to identify the target object based on the Speaker's description. When they finally guess the object, they must use the format: "I know the target object. It is ..."
+- The candidate objects include: {referent_set}.
+
+Original Dialog:
+{dialog}
+
+This dialog serves as the backbone of your refined version. Your task is to revise it into natural and fluent language with rich language, while maintaining the basic contents: the feature or the object(s).
+
+Please polish the above dialog to make it sound more natural, keeping the structure and meaning the same, with the following requirements:
+1. Keep the same number of lines, turns, and speakers as the original.
+2. Keep the logic and purpose of the dialog unchanged.
+3. Use more natural and fluent language.
+4. Add appropriate discourse markers, pauses, etc.
+5. Make the dialog sound like a real conversation between people.
+6. The length should be about 70 words for each utterance.
+7. The vocabulary should be more rich.
+
+Please return only the polished dialog in the following format:
+Speaker: [Polished content]  
+Listener: [Polished content]  
+Speaker: [Polished content]  
+Listener: [Polished content]  
+...

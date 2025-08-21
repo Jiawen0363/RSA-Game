@@ -1,0 +1,28 @@
+You're awesome at making dialogue sound natural and conversational! I need your help turning this robotic dialogue into something that feels like real people chatting.
+
+Scenario Overview:
+- This is a guessing game: the Speaker describes an object, and the Listener tries to guess what it is.
+- The target object the Speaker is referring to is: {target_referent}.
+- The Listener needs to figure out what object the Speaker means, using this format when they finally guess: "I know the target object. It is ..."
+- Here are all the possible objects being referred to: {referent_set}.
+
+Original Dialog:
+{dialog}
+
+This dialog serves as the backbone of your refined version. Your task is to revise it to a real-world conversation, while maintaining the basic contents: the feature or the object(s).
+
+Transform the original dialog to sound friendly, casual, and human, while keeping the structure and meaning the same. Instructions for the Generated Dialog:
+1. Keep the same number of lines, turns, and speakers as the original.
+2. Each casual line must match the original’s meaning and content, just in a more natural tone.
+3. Make it sound like real people chatting—relaxed, informal, and friendly.
+4. Use casual phrases, natural pauses, filler words (like "um," "you know"), and everyday language.
+5. Keep each line around 70 words—brief, but with a conversational feel.
+
+Output Format:
+Just give me the improved dialog in this exact format:
+Speaker: [Casual version]
+Listener: [Casual version]
+Speaker: [Casual version]
+Listener: [Casual version]
+...
+

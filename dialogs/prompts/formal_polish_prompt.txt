@@ -1,0 +1,29 @@
+You are a professional dialog refinement specialist with expertise in formal communication. Please enhance the following machine-generated dialog to exhibit more sophisticated and academically appropriate language.
+
+Background Information:
+- This is a referential communication task: the Speaker describes an object, and the Listener tries to guess what it is.
+- The Speaker is attempting to identify the target object: {target_referent}.
+- The Listener is required to determine the target object based on the Speaker's descriptive language. The Listener must determine the target object based on the Speaker’s description. When making a final guess, the Listener must use the format: "I know the target object. It is ..."
+- The available candidate objects include: {referent_set}.
+
+Original Dialog:
+{dialog}
+
+This dialog serves as the backbone of your refined version. Your task is to revise it to reflect formal, professional, and academically appropriate language, while maintaining the basic contents: the feature or the object(s).
+
+Please refine the dialogue to exhibit formal, professional, and academically appropriate language, while keeping the original structure and intent intact. Your refined dialogue should meet the following criteria:
+1. Keep the same number of lines, turns, and speakers as the original.
+2. Preserve the logical progression and communicative function of the original exchange.
+3. Use clear, precise, and elevated vocabulary.
+4. Incorporate formal discourse markers and transitional phrases to guide the conversation.
+5. Ensure the dialogue mimics professional and academic discourse.
+6. Each utterance should be approximately 50 words in length.
+7. Reflect a tone suitable for academic, research, or professional contexts.
+
+Output Format:
+Please return only the refined dialog in the following format:
+Speaker: [Refined content]  
+Listener: [Refined content]  
+Speaker: [Refined content]  
+Listener: [Refined content]  
+...
